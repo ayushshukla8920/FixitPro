@@ -30,11 +30,11 @@
             $data['phone'],
             $password,
             $data['role'],
-            $data['address'],
+            $data['address']
         );
         if(!isset($response['error'])){
             $payload = [
-                "email" => $data['email'];
+                "email" => $data['email'],
             ];
             $token = $jwt->createJWT($payload);
             echo json_encode([
