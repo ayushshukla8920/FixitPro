@@ -3,7 +3,7 @@
         // private $host = "sql301.infinityfree.com";
         // private $db_name = "if0_38272809_appliance_repair";
         // private $username = "if0_38272809";
-        // private $password = "Ayush8920";
+        // private $password = "xxxx";
         // public $conn;
         private $host = "127.0.0.1";
         private $db_name = "appliance_repair";
